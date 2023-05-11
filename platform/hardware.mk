@@ -30,10 +30,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
-### COVER
-PRODUCT_PACKAGES += \
-    FlipFlap
-
 ### DISPLAY
 PRODUCT_PACKAGES += \
     vendor.display.config@1.3
@@ -95,10 +91,6 @@ PRODUCT_PACKAGES += \
 # CONFIGSTORE
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
-
-# DISPLAY
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -182,11 +174,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
-
-# USB TRUST HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    android.hardware.usb@1.0-service
 
 # VIBRATOR
 PRODUCT_PACKAGES += \
